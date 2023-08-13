@@ -1,4 +1,11 @@
 {
-  "cSpell.words": ["darkbg", "Flowbite", "IMDB", "Moviesverse", "noreferrer"],
+  "cSpell.words": [
+    "darkbg",
+    "Flowbite",
+    "IMDB",
+    "Moviesverse",
+    "noreferrer",
+    "pagenotfound"
+  ],
   "cSpell.enableFiletypes": ["jsx", "jsx-tags", "tailwindcss"]
 }

@@ -1,10 +1,11 @@
 import { useParams } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import backupImg from "../assets/backup.png";
+import { useTitle } from "../hooks";
 export const MovieDetail = () => {
   const params = useParams();
-
   const [movie, setMovie] = useState({});
+  const PageTitle = useTitle(movie.title); 
   const image = movie.poster_path
     ? `https://image.tmdb.org/t/p/w500/${movie.poster_path}`
     : backupImg;
@@ -20,6 +21,8 @@ export const MovieDetail = () => {
     }
     fetchMovie();
   }, [params.id]);
+
+  
   return (
     <main>
       <section className="flex justify-around flex-wrap py-5">

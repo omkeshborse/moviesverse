@@ -1,7 +1,9 @@
 import React from "react";
+import { useTitle } from "../hooks";
 import { Link } from "react-router-dom";
 import pageNotFound from "../assets/pagenotfound.png";
 export const PageNotFound = () => {
+  const pageTitle = useTitle("Page Not Found /Moviesverse");
   return (
     <main>
       <section className="flex flex-col justify-center px-2">

@@ -1,12 +1,18 @@
+ import React from "react";
+
 import { useSearchParams } from "react-router-dom";
 import { Card } from "../components";
-import { useFetch } from "../hooks/useFetch";
+import { useFetch, useTitle } from "../hooks";
+
 
 export const Search = ({apiPath}) => {
   const [searchParams] = useSearchParams( ) ;
   const queryTerm = searchParams.get("q"); ;
 
   const { data: movies } = useFetch(apiPath, queryTerm);
+  /* For page title custom hook  */
+ const pageTitle = useTitle(`Search Result For ${queryTerm} /Moviesverse`);
+  
   return (
     <main>
       <section className="py-7">

@@ -8,9 +8,6 @@ Moviesverse is a website that allows users to explore a diverse collection of mo
 
 **Client:** React, Hooks , TailwindCSS , Flowbite , dotenv
 
-
-
-
 ## Features
 
 - **Explore a Diverse Movie Collection:** Moviesverse offers an extensive array of movies, spanning popular titles, timeless classics, and captivating indie films. Users can effortlessly navigate the movie list based on name .

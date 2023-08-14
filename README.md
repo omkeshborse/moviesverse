@@ -28,8 +28,9 @@ Moviesverse is a website that allows users to explore a diverse collection of mo
 
 #### Get all items
 
-```http
-    GET /api/items
+```bash
+    GET https://api.themoviedb.org/3/movie/550?api_key=api_key(from_TMDB) 
+
 ```
 
 | Parameter | Type     | Description                |

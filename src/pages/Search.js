@@ -11,7 +11,7 @@ export const Search = ({apiPath}) => {
 
   const { data: movies } = useFetch(apiPath, queryTerm);
   /* For page title custom hook  */
- const pageTitle = useTitle(`Search Result For ${queryTerm} /Moviesverse`);
+  useTitle(`Search Result For ${queryTerm} /Moviesverse`);
   
   return (
     <main>

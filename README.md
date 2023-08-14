@@ -29,7 +29,7 @@ Moviesverse is a website that allows users to explore a diverse collection of mo
 #### Get all items
 
 ```http
-  GET /api/items
+    GET /api/items
 ```
 
 | Parameter | Type     | Description                |

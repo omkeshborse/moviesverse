@@ -5,7 +5,9 @@
     "IMDB",
     "Moviesverse",
     "noreferrer",
-    "pagenotfound"
+    "pagenotfound",
+    "watchlist",
+    "Watchlists"
   ],
   "cSpell.enableFiletypes": ["jsx", "jsx-tags", "tailwindcss"]
 }

@@ -80,13 +80,3 @@ Start the server
 
 Enjoy Moviesverse!
 
-Start the server
-
-```bash
-  npm run start
-```
-
-🎉 Feel free to clone or fork this repository if you're also diving into moviesverse . Let's master the art of navigation in React together! 🎉"
-
-
-Enjoy Moviesverse!

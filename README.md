@@ -6,7 +6,7 @@ Moviesverse is a website that allows users to explore a diverse collection of mo
 
 ## Tech Stack
 
-**Client:** React, Hooks , TailwindCSS , Flowbit , dotenv
+**Client:** React, Hooks , TailwindCSS , Flowbite , dotenv
 
 
 

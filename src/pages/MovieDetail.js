@@ -13,7 +13,7 @@ export const MovieDetail = () => {
   useEffect(() => {
     async function fetchMovie() {
       const response = await fetch(
-        `https://api.themoviedb.org/3/movie/${params.id}?api_key=b13be72e1e2c3a097c8a40da8b36196f`
+        `https://api.themoviedb.org/3/movie/${params.id}?api_key=${process.env.REACT_APP_API_KEY}`
       );
       const json = await response.json();
       setMovie(json);

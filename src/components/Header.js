@@ -28,6 +28,7 @@ const [hidden , setHidden ] = useState(true) ;
       const queryTerm = event.target.search.value;
       console.log(queryTerm);
       event.target.reset();
+      setHidden(!hidden)
       return navigate(`/search?q=${queryTerm}`);
     }
     return (
@@ -204,6 +205,7 @@ const [hidden , setHidden ] = useState(true) ;
                       isActive ? activeClass : inActiveClass
                     }
                     end
+                    onClick={() => setHidden(!hidden)}
                   >
                     Home
                   </NavLink>
@@ -214,6 +216,7 @@ const [hidden , setHidden ] = useState(true) ;
                     className={({ isActive }) =>
                       isActive ? activeClass : inActiveClass
                     }
+                    onClick={() => setHidden(!hidden)}
                   >
                     Popular
                   </NavLink>
@@ -224,6 +227,7 @@ const [hidden , setHidden ] = useState(true) ;
                     className={({ isActive }) =>
                       isActive ? activeClass : inActiveClass
                     }
+                    onClick={() => setHidden(!hidden)}
                   >
                     Top
                   </NavLink>
@@ -234,6 +238,7 @@ const [hidden , setHidden ] = useState(true) ;
                     className={({ isActive }) =>
                       isActive ? activeClass : inActiveClass
                     }
+                    onClick={() => setHidden(!hidden)}
                   >
                     Upcoming
                   </NavLink>
